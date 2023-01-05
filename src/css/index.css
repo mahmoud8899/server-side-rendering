@@ -1,0 +1,150 @@
+body {
+  background-color: #fff;
+}
+
+.width {
+  width: 100%;
+}
+ /* start flex box  */
+ .flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexreverse {
+  flex-direction: row-reverse;
+}
+
+ /* End flex box  */
+
+
+
+.overFlow{
+  overflow: hidden;
+}
+.color-all {
+  color: #ff9401;
+}
+.background-Color {
+  background-color: #ff9401;
+}
+.background-coloranther {
+  background-color: #fffaf3;
+}
+.background-first {
+  background-color: #fffefc;
+}
+.whitecolor {
+  color: white;
+}
+.desFont {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+
+.margin-Top {
+  margin-top: 4rem;
+}
+.Onemargin-top {
+  margin-top: 1rem;
+}
+.tWOmargin-bottom{
+  margin-bottom: 2rem;
+}
+.margin-bottom {
+  margin-bottom: 1rem;
+}
+.margin-left {
+  margin-left: auto;
+}
+.Image {
+  object-fit: cover;
+}
+
+.Button {
+
+  border: 0rem;
+}
+.padding  {
+    padding: 1rem;
+}
+.padding-half {
+  padding :0.5rem
+}
+
+.border-radius {
+  border-radius: 0.4rem;
+}
+.border-half {
+    border-radius: 2rem;
+}
+.box-shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.TitleFontSize {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.des {
+  font-size: 16px;
+  line-height: 1.3rem;
+}
+.text-transform{
+  text-transform: capitalize;
+}
+.ItemImage{
+  width: 100%;
+  height: 180px;
+}
+
+
+.IMAGRaPP {
+  width: 100px;
+  height: 130px;
+  object-fit: contain;
+}
+.Align-items {
+  align-items: center;
+}
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.Icons {
+  font-size: 20px;
+}
+.IconExtra {
+  font-size: 30px;
+}
+.marginright {
+  margin-left: 20px;
+}
+.cursor {
+  cursor: pointer;
+}
+.text-align {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+ 
+
+   .ImageSize{
+       margin-top: 1rem;
+   }
+   .text-align.cover{
+     margin-top: 2rem;
+   }
+ }
+

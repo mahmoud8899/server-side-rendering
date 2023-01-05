@@ -1,0 +1,9 @@
+node_modules
+Dockerfile
+.git 
+.gitignore
+.dockerignore
+.env
+webpack.config.js
+docker-compose.yml
+/src
