@@ -4,15 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./build/server.js node --trace-warnings",
-    "build": "webpack --config webpack.server.js --mode production",
+    "start": "npm-run-all --parallel server:*",
+    "build": "webpack --config webpack.server.js --mode production --watch",
+    "Test": "nodemon ./build/server.js node  --trace-warnings",
+    "build:dev": "webpack --config webpack.server.js --mode production",
     "change": "webpack serve --config  webpack.config.js ",
     "server:build": "webpack --config webpack.server.js --mode production --watch",
     "server:run": "nodemon ./build/server.js node --trace-warnings",
-    "dev": "npm-run-all --parallel server:*",
     "docker": "nodemon ./build/server.js node --trace-warnings"
-
-
   },
   "keywords": [],
   "author": "",
