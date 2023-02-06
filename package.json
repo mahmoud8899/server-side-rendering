@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm-run-all --parallel server:*",
-    "build": "webpack --config webpack.server.js --mode production --watch",
+    "build": "webpack --config webpack.server.js --mode production",
     "Test": "nodemon ./build/server.js node  --trace-warnings",
     "build:dev": "webpack --config webpack.server.js --mode production",
     "change": "webpack serve --config  webpack.config.js ",
