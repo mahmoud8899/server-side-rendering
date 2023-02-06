@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "node ./build/server.js  --trace-warnings",
+    "start": "node ./build/server.js  --trace-warnings",
     "build": "webpack --config webpack.server.js --mode production"
   },
   "keywords": [],
@@ -41,7 +41,6 @@
     "css-loader": "^6.7.3",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
-    "ignore-styles": "^5.0.1",
     "localstorage-polyfill": "^1.0.1",
     "mini-css-extract-plugin": "^2.7.2",
     "sass": "^1.57.1",
