@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start" : "nodemon ./build/server.js node --trace-warnings",
+    "start" : "node ./build/server.js  --trace-warnings",
     "build": "webpack --config webpack.server.js --mode production"
   },
   "keywords": [],
