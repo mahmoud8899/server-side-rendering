@@ -2,6 +2,7 @@ import express from 'express';
 import morgan from 'morgan';
 import bodyParser from 'body-parser'
 import cors from 'cors'
+import 'ignore-styles'
 import rootReducer from '../redux/App/index'
 import { configureStore } from '@reduxjs/toolkit'
 import Render from './Render';
