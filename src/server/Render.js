@@ -12,7 +12,7 @@ import serializeJavascript from "serialize-javascript";
 
 
 
-export default function Render(req,store) {
+export default function Render(req, store) {
 
 
 
@@ -36,11 +36,17 @@ export default function Render(req,store) {
   const html = `<!DOCTYPE html>
         <html ${helmet.htmlAttributes.toString()}>
         <head>
+        <title>Food</title>         
+        <meta property="og:description" content="Spara tid genom att låta oss på Lätt Spis skapa en matsedel åt dig. Vi levererar maten hem till dig så att du enkelt kan värma och äta den." />
+        <meta property="og:image" content="https://lattspis.se/static/media/salad.236d4e051d24a9eb8cd8.png"  />
+        <meta property="og:image:url"  content="https://lattspis.se/static/media/salad.236d4e051d24a9eb8cd8.png"  />
+        <meta property="twitter:image" content="https://lattspis.se/static/media/salad.236d4e051d24a9eb8cd8.png"  />
         <link rel="icon" type="image/x-icon" href=${Icon}>
         ${helmet.title.toString()}
         ${helmet.meta.toString()}
         ${helmet.link.toString()}
         <link rel="stylesheet" href="/css/main.css">
+        
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     </head>
 
